@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KomplexaDatatyperKatas
+namespace KomplexaDatatyperKata
 {
     class Program
     {
