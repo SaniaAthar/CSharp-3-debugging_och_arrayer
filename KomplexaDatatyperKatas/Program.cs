@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace KomplexaDatatyperKata
 {
@@ -8,6 +9,7 @@ namespace KomplexaDatatyperKata
         {
             while (true)
             {
+                List<OnlineOrder> orders = new List<OnlineOrder>();
                 Console.Clear();
 
                 Console.WriteLine("1: Order an electric bicycle");
