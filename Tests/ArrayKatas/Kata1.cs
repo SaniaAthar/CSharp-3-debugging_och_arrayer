@@ -23,6 +23,7 @@ namespace Tests.ArrayKatas
         public void ArrayReverserTest(int[] original, int[] rightAnswer)
         {
             Reverser.Reverse(original);
+            // to reverse
 
             Assert.Equal(rightAnswer, original);
         }
